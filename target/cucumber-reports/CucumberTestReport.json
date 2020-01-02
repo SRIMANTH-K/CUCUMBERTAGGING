@@ -1,0 +1,192 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "To check with valid username and valid password",
+        "description": "",
+        "id": "checking-guru99-and-orangehrm-login-pages;to-check-with-valid-username-and-valid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 35492606300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter valid username and password",
+            "match": {
+              "location": "TaggingStepDefinition.user_enter_valid_username_and_password()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13612400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "this is valid test",
+            "match": {
+              "location": "TaggingStepDefinition.this_is_valid_test()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4191633000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "close the browser",
+            "match": {
+              "location": "TaggingStepDefinition.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "To check guruwebpage login page",
+        "description": "",
+        "id": "checking-guru99-and-orangehrm-login-pages;to-check-guruwebpage-login-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 38267043000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "person is login page",
+            "match": {
+              "location": "TaggingStepDefinition.person_is_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7338500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "title of the page is Guruwebpage",
+            "match": {
+              "location": "TaggingStepDefinition.title_of_the_page_is_Guruwebpage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 334456900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "enter the valid username and password",
+            "match": {
+              "location": "TaggingStepDefinition.enter_the_valid_username_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 63507900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "quit the browser",
+            "match": {
+              "location": "TaggingStepDefinition.quit_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "To check with invalid username and invalid password",
+        "description": "",
+        "id": "checking-guru99-and-orangehrm-login-pages;to-check-with-invalid-username-and-invalid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 43722076400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user is login page",
+            "match": {
+              "location": "TaggingStepDefinition.user_is_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 215381300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user enter invalid username and password",
+            "match": {
+              "location": "TaggingStepDefinition.user_enter_invalid_username_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11195649300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Get text of Alert box",
+            "match": {
+              "location": "TaggingStepDefinition.Get_text_of_Alert_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 102717100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "close browser",
+            "match": {
+              "location": "TaggingStepDefinition.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 17,
+            "name": "@End2EndTest"
+          }
+        ]
+      }
+    ],
+    "name": "Checking guru99 and orangeHRm Login pages",
+    "description": "",
+    "id": "checking-guru99-and-orangehrm-login-pages",
+    "keyword": "Feature",
+    "uri": "C:/Users/srima/workspace1/CCUCMBERTAGGING/src/test/java/FeatureFile/Tagging.feature"
+  }
+]
